@@ -1,14 +1,14 @@
-# Magic Cliff Loss
+# Clif Loss
 
 Experimental stereo tape-degradation **insert effect** for ARMv7 Akai Force / MPC Gen1 custom-plugin setups, by MagicStino.
 
-![Magic Cliff Loss preview](Preview.png)
+![Clif Loss preview](Preview.png)
 
 Large white knobs with black indicator lines, clear outlined labels, a grey cliff background, and **Mix starting at 40% wet**. Tape Stop and pedal-style Aux controls are intentionally omitted; use the host's insert bypass.
 
 ## Source and build
 
-[Download the complete source archive](Magic-Cliff-Loss-source.zip), extract it, and follow its README. It contains the C++ plugin, skin generators/artwork, native presets, tests and firmware research tools. The source is distributed here as an archive.
+[Download the complete source archive](Clif-Loss-source.zip), extract it, and follow its README. It contains the C++ plugin, skin generators/artwork, native presets, tests and firmware research tools. The source is distributed here as an archive.
 
 The digital engine uses a **locally supplied Generation Loss MKII 1.1.0 firmware file**. Firmware, the generated firmware header, and binaries containing firmware are excluded from this repository. The build validates the firmware SHA256. No firmware redistribution license is granted by this project.
 
@@ -34,6 +34,12 @@ Digital-core comparison: 8192 stereo frames in each of four routing modes match 
 
 **Still unverified on hardware:** Force/MPC installation/discovery, CPU headroom, Q-Link order, automation recording, project recall and preset browsing. There was no physical pedal available; digital-core equality does not establish the analog sound of the complete pedal.
 
-[Reusable findings log for the next firmware project](Magic-Cliff-Loss-Findings.txt). It distinguishes final implementation, earlier experiments and assumptions; do not reuse image-specific addresses for another pedal.
+[Reusable findings log for the next firmware project](Clif-Loss-Findings.txt). It distinguishes final implementation, earlier experiments and assumptions; do not reuse image-specific addresses for another pedal.
 
 Original adaptation code is MIT licensed. Third-party notices and the font license are included in the archive. Independent project; not affiliated with Chase Bliss or Akai.
+
+## Artwork and touch layout
+
+The second knob row has extra label spacing and Mix has a large touch slider, defaulting to 40% wet.
+
+[Release cover](release-cover.png) · [Catalog thumbnail](catalog-thumbnail.png) · [Browser tile](browser-tile.png)
