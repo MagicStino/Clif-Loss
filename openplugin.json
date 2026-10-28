@@ -1,0 +1,39 @@
+{
+  "schema": "openplugin.community/1",
+  "id": "clif-loss",
+  "name": "Clif Loss",
+  "author": "MagicStino",
+  "repo": "MagicStino/Clif-Loss",
+  "kind": "effect",
+  "category": "effect",
+  "license": "MIT",
+  "summary": "Stereo tape character, pitch drift, failure textures and independent noise controls for Force/MPC. Requires your own firmware.",
+  "tags": [
+    "tape",
+    "lo-fi",
+    "stereo",
+    "firmware-derived"
+  ],
+  "images": [
+    "https://raw.githubusercontent.com/MagicStino/Clif-Loss/main/catalog-thumbnail.png",
+    "https://raw.githubusercontent.com/MagicStino/Clif-Loss/main/Preview.png"
+  ],
+  "packages": [],
+  "distribution": "build-yourself",
+  "requires_user_files": [
+    {
+      "name": "genLoss1.1.0.bin",
+      "description": "Your own Generation Loss MKII 1.1.0 firmware; SHA256 f9bfb4bfb28c551c1390a6ff1fc5c26873f5e3381ace65b7b363bd22e86cba67. Personal build only."
+    }
+  ],
+  "build": {
+    "command": "sh build-local.sh /path/to/genLoss1.1.0.bin",
+    "script": "build-local.sh",
+    "docs_url": "https://github.com/MagicStino/Clif-Loss/blob/{tag}/BUILD.md",
+    "needs": [
+      "Python 3",
+      "Docker",
+      "Linux environment"
+    ]
+  }
+}
