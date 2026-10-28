@@ -40,4 +40,24 @@ Dusty colour for drum loops, with light hiss and modest instability.
 
 Classic engine with its LP/HP and generation controls.
 
+## Velvet Keys
+
+Soft electric piano or pads with gentle warmth and slow pitch movement.
+
+## Chorus Drift
+
+Wide slow tape movement for sustained chords and synth pads.
+
+## Crunchy Drums
+
+Strong saturation with restrained pitch movement for drum loops.
+
+## Old Radio
+
+Classic-mode band-limited texture for voices, keys and sampled phrases.
+
+## Broken Reel
+
+Heavy irregular wear and drifting pitch for short transition effects.
+
 These are starting points designed from the controls, not matched recordings of a physical pedal. Adjust Volume for your source. Host insert bypass remains separate. Tape Stop and pedal Aux controls are intentionally omitted.

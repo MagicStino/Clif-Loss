@@ -144,3 +144,5 @@ parameter count,program index,18 normalized floats,and a24-byte program name.
 Installer replaces %payload-path% in Presets/*.xpl. Validate containers AND
 load decoded chunks into the actual compiled library; do not call loose FXP
 files native MPC presets. Edited state/name restoration is separately tested.
+
+PREVIEW.3 UPDATE (2026-10-28): user confirmed original presets work and sound good, but UI stayed stale. Added deferred host value notifications for all 15 visible controls plus one UpdateDisplay after factory or chunk recall. Ordinary host writes and echoed callbacks do not trigger further refreshes. ARM regression checks pass for all 15 programs, chunk recall, coalesced picks, invalid chunks, and echoed setParameter. Five presets appended; first ten unchanged. Setup removed. Legacy slots 11/12/17 retained in state, not automatable; DSP fixes drop/snag bypass off and input gain to Instrument default. Two UI/Q-Link pages. Hardware confirmation of refresh remains pending.
